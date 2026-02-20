@@ -1,11 +1,30 @@
-.settings
-target
-.vscode
+# Build output
+target/
+
+# IDE files
+.settings/
+.vscode/
 .project
 .classpath
-.vertx
-*.log
-pom.xml.versionsBackup
-.idea
+.idea/
 *.iml
 .factorypath
+
+# Vert.x
+.vertx/
+
+# Logs
+*.log
+
+# Maven
+pom.xml.versionsBackup
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# Class files in source directories
+*.class
